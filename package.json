@@ -12,6 +12,7 @@
     "vite": "^5.2.0"
   },
   "dependencies": {
+    "ecommerce": "file:",
     "xlsx": "^0.18.5"
   }
 }
