@@ -1144,6 +1144,10 @@ main {
     margin-top: 10px; 
 }
 
+.section-products span {
+    justify-content: end;
+}
+
 .options {
     display: flex;
     padding: 0 110px;
@@ -1264,6 +1268,10 @@ main {
     border: 1px solid #ccc; 
     border-radius: 5px; 
     margin-bottom: 10px; 
+}
+
+.card-all {
+    text-align: center;
 }
 
 .card-all img {
