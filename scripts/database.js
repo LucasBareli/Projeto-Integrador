@@ -1,159 +1,172 @@
 export const database = [ /* "Banco de dados" de produtos comercializados no site */
-    {/* 
+    {
         codigoProduto:1,
-        tituloProduto:"Furadeira e Parafusadeira de Impacto a Bateria Bosch com Carregador e Bateria 18V 1/2 GSB 180-Li Bivolt", 
-        preco: 620.00, 
-        descricao:"Para furar madeiras, metais e alvenaria, a Furadeira e Parafusadeira GSB 180-Li é a solução ideal! Com o maior torque da categoria, baixa manutenção e a maior resistência se comparar com os principais concorrentes, é sinônimo de máxima performance com o melhor custo benefício.",
+        tituloProduto:"Jordan 4 Metalic Gold", 
+        preco: 999.99, 
+        descricao:"O Jordan 4 Metallic Gold é uma edição sofisticada do clássico Air Jordan 4, com detalhes dourados metálicos que adicionam luxo ao design. A parte superior é feita de couro branco de alta qualidade, proporcionando um visual clean e moderno. O dourado metálico aparece no logo Jumpman, na gola e na entressola. O tênis mantém o famoso sistema de amortecimento Air-Sole, garantindo conforto e suporte. Ideal para fãs da marca, ele oferece um estilo versátil para ocasiões casuais e sofisticadas. Uma edição limitada, desejada por colecionadores e entusiastas da moda.",
         imagemProduto: {
-            img1:"./images/products/prod01/img1.png",
-            img2:"./images/products/prod01/img2.png",
-            img3:"./images/products/prod01/img3.png",
-            img4:"./images/products/prod01/img4.png",
-
+            img1:"images/Jordan 4 Metalic Gold.avif",
+            img2:"images/Jordan 4 Metalic Gold - Sola.avif",
+            img3:"images/Jordan 4 Metalic Gold - Direita.avif",
+            img4:"images/Jordan 4 Metalic Gold - Cima.avif",
+            img5:"images/Jordan 4 Metalic Gold - Lado.avif",
+            img6:"images/Jordan 4 Metalic Gold - Costas.avif",
         },
-        categoriaProduto: 'Ferramentas',
-        classificacaoProduto:"Novidades",
+        categoriaProduto: 'Sneakers',
+        classificacaoProduto:"News",
         exibirHome: true
-        */
     },
-    {/*
+    {
         codigoProduto:2,
-        tituloProduto:"Furadeira e Parafusadeira Bosch Brushless de Impacto a Bateria 12V 3/8 12V GSB 12V-30", 
-        preco: 300.00, 
-        descricao:"A Parafusadeira e Furadeira de Impacto a Bateria de 3/8 Bosch GSB 12V-30, 12V, possui motor sem escovas de carvão a um preço que você nunca viu! Além disso, vem com sistema inteligente ECP que protege eletronicamente as células da bateria.",
+        tituloProduto:"Jordan 4 Thunder", 
+        preco: 999.99, 
+        descricao:"Te deixa muito mais bonito",
         imagemProduto: {
-            img1:"./images/products/prod02/img1.png",
-            img2:"./images/products/prod02/img2.png",
-            img3:"./images/products/prod02/img3.png",
-            img4:"./images/products/prod02/img4.png",
-    },
-        categoriaProduto: 'Ferramentas',
-        classificacaoProduto:"Novidades",
+            img1:"images/Jordan 4 Thunder.avif",
+            img2:"images/Jordan 4 Metalic Gold - Sola.avif",
+            img3:"images/Jordan 4 Metalic Gold - Direita.avif",
+            img4:"images/Jordan 4 Metalic Gold - Cima.avif",
+            img5:"images/Jordan 4 Metalic Gold - Lado.avif",
+            img6:"images/Jordan 4 Metalic Gold - Costas.avif",
+        },
+        categoriaProduto: 'Sneakers',
+        classificacaoProduto:"News",
         exibirHome: true
-        */
     },
     {
-        /*
         codigoProduto:3,
-        tituloProduto:"Furadeira e Parafusadeira Bosch Brushless de Impacto a Bateria 12V 3/8 12V GSB 12V-30", 
-        preco: 300.00, 
-        descricao:"A Parafusadeira e Furadeira de Impacto a Bateria de 3/8 Bosch GSB 12V-30, 12V, possui motor sem escovas de carvão a um preço que você nunca viu! Além disso, vem com sistema inteligente ECP que protege eletronicamente as células da bateria.",
+        tituloProduto:"Jordan 4 Went Cement", 
+        preco: 999.99, 
+        descricao:"Te deixa muito mais bonito",
         imagemProduto: {
-            img1:"./images/products/prod02/img1.png",
-            img2:"./images/products/prod02/img2.png",
-            img3:"./images/products/prod02/img3.png",
-            img4:"./images/products/prod02/img4.png",
-
+            img1:"images/Jordan 4 Went Cement.avif",
+            img2:"images/Jordan 4 Went Cement - Sola.avif",
+            img3:"images/Jordan 4 Went Cement - Direita.avif",
+            img4:"images/Jordan 4 Went Cement - Cima.avif",
+            img5:"images/Jordan 4 Went Cement - Lado.avif",
+            img6:"images/Jordan 4 Went Cement - Costas.avif",
         },
-        categoriaProduto: 'Ferramentas',
-        classificacaoProduto:"Novidades",
-        exibirHome: false
-        */
+        categoriaProduto: 'Sneakers',
+        classificacaoProduto:"News",
+        exibirHome: true
     },
     {
-        /*
         codigoProduto:4,
-        tituloProduto:"Furadeira e Parafusadeira Bosch Brushless de Impacto a Bateria 12V 3/8 12V GSB 12V-30", 
-        preco: 300.00, 
-        descricao:"A Parafusadeira e Furadeira de Impacto a Bateria de 3/8 Bosch GSB 12V-30, 12V, possui motor sem escovas de carvão a um preço que você nunca viu! Além disso, vem com sistema inteligente ECP que protege eletronicamente as células da bateria.",
+        tituloProduto:"Dunk Low Malachite", 
+        preco: 999.99, 
+        descricao:"Te deixa muito mais bonito",
         imagemProduto: {
-            img1:"./images/products/prod02/img1.png",
-            img2:"./images/products/prod02/img2.png",
-            img3:"./images/products/prod02/img3.png",
-            img4:"./images/products/prod02/img4.png",
-
+            img1:"images/Dunk Low Malachite.avif",
+            img2:"images/Dunk Low Malachite - Sola.avif",
+            img3:"images/Dunk Low Malachite - Direita.avif",
+            img4:"images/Dunk Low Malachite - Cima.avif",
+            img5:"images/Dunk Low Malachite - Lado.avif",
+            img6:"images/Dunk Low Malachite - Costas.avif",
         },
-        categoriaProduto: 'Ferramentas',
-        classificacaoProduto:"Promocoes",
+        categoriaProduto: 'Sneakers',
+        classificacaoProduto:"News",
         exibirHome: true
-        */
     },
     {
-        /*
         codigoProduto:5,
-        tituloProduto:"Furadeira e Parafusadeira Bosch Brushless de Impacto a Bateria 12V 3/8 12V GSB 12V-30", 
-        preco: 300.00, 
-        descricao:"A Parafusadeira e Furadeira de Impacto a Bateria de 3/8 Bosch GSB 12V-30, 12V, possui motor sem escovas de carvão a um preço que você nunca viu! Além disso, vem com sistema inteligente ECP que protege eletronicamente as células da bateria.",
+        tituloProduto:"Dunk Low Black Raspberry", 
+        preco: 999.99, 
+        descricao:"Te deixa muito mais bonito",
         imagemProduto: {
-            img1:"./images/products/prod02/img1.png",
-            img2:"./images/products/prod02/img2.png",
-            img3:"./images/products/prod02/img3.png",
-            img4:"./images/products/prod02/img4.png",
-
+            img1:"images/Dunk Low Black Raspberry.avif",
+            img2:"images/Dunk Low Black Raspberry - Sola.avif",
+            img3:"images/Dunk Low Black Raspberry - Direita.avif",
+            img4:"images/Dunk Low Black Raspberry - Cima.avif",
+            img5:"images/Dunk Low Black Raspberry - Lado.avif",
+            img6:"images/Dunk Low Black Raspberry - Costas.avif",
         },
-        categoriaProduto: 'Ferramentas',
-        classificacaoProduto:"Mais_Vendidos",
+        categoriaProduto: 'Sneakers',
+        classificacaoProduto:"News",
         exibirHome: true
-        */
     },
     {
-        /*
         codigoProduto:6,
-        tituloProduto:"Furadeira e Parafusadeira Bosch Brushless de Impacto a Bateria 12V 3/8 12V GSB 12V-30", 
-        preco: 300.00, 
-        descricao:"A Parafusadeira e Furadeira de Impacto a Bateria de 3/8 Bosch GSB 12V-30, 12V, possui motor sem escovas de carvão a um preço que você nunca viu! Além disso, vem com sistema inteligente ECP que protege eletronicamente as células da bateria.",
+        tituloProduto:"Dunk Low Vintage Green", 
+        preco: 999.99, 
+        descricao:"Te deixa muito mais bonito",
         imagemProduto: {
-            img1:"./images/products/prod02/img1.png",
-            img2:"./images/products/prod02/img2.png",
-            img3:"./images/products/prod02/img3.png",
-            img4:"./images/products/prod02/img4.png",
-
+            img1:"images/Dunk Low Vintage Green.avif",
+            img2:"images/Dunk Low Vintage Green - Sola.avif",
+            img3:"images/Dunk Low Vintage Green - Direita.avif",
+            img4:"images/Dunk Low Vintage Green - Cima.avif",
+            img5:"images/Dunk Low Vintage Green - Lado.avif",
+            img6:"images/Dunk Low Vintage Green - Costas.avif",
         },
-        categoriaProduto: 'Ferramentas',
-        classificacaoProduto:"Mais_Vendidos",
+        categoriaProduto: 'Sneakers',
+        classificacaoProduto:"News",
         exibirHome: true
-        */
     },
     {
-        /*
         codigoProduto:7,
-        tituloProduto:"Furadeira e Parafusadeira Bosch Brushless de Impacto a Bateria 12V 3/8 12V GSB 12V-30", 
-        preco: 300.00, 
-        descricao:"A Parafusadeira e Furadeira de Impacto a Bateria de 3/8 Bosch GSB 12V-30, 12V, possui motor sem escovas de carvão a um preço que você nunca viu! Além disso, vem com sistema inteligente ECP que protege eletronicamente as células da bateria.",
+        tituloProduto:"NOCTA Black", 
+        preco: 999.99, 
+        descricao:"Te deixa muito mais bonito",
         imagemProduto: {
-            img1:"./images/products/prod02/img1.png",
-            img2:"./images/products/prod02/img2.png",
-            img3:"./images/products/prod02/img3.png",
-            img4:"./images/products/prod02/img4.png",
-
+            img1:"images/NOCTA Black.avif",
+            img2:"images/NOCTA Black - Sola.avif",
+            img3:"images/NOCTA Black - Direita.avif",
+            img4:"images/NOCTA Black - Cima.avif",
+            img5:"images/NOCTA Black - Lado.avif",
+            img6:"images/NOCTA Black - Costas.avif",
         },
-        categoriaProduto: 'Ferramentas',
-        classificacaoProduto:"Mais_Vendidos",
+        categoriaProduto: 'Sneakers',
+        classificacaoProduto:"News",
         exibirHome: true
-        */
-    },
-    {/*
-        codigoProduto:8,
-        tituloProduto:"Nissan Kicks 2019", 
-        preco: 98930.00, 
-        descricao:"O Nissan Kicks 2019 é um SUV compacto que combina estilo e eficiência, ideal para o uso urbano e viagens. Com motor 1.6 e câmbio automático CVT, oferece uma condução suave e econômica, além de um design arrojado com teto flutuante e interior espaçoso.",
-        imagemProduto: {
-            img1:"./images/ofertaCar1.png",
-            img2:"./images/ofertaCar1-1.png",
-            img3:"./images/ofertaCar1-2.png",
-            img4:"./images/ofertaCar1-3.png",
-
-        },
-        categoriaProduto: 'Carro',
-        classificacaoProduto:"Mais_Vendidos",
-        exibirHome: true*/
     },
     {
-        /*
-        codigoProduto:9,
-        tituloProduto:"Furadeira e Parafusadeira Bosch Brushless de Impacto a Bateria 12V 3/8 12V GSB 12V-30", 
-        preco: 300.00, 
-        descricao:"A Parafusadeira e Furadeira de Impacto a Bateria de 3/8 Bosch GSB 12V-30, 12V, possui motor sem escovas de carvão a um preço que você nunca viu! Além disso, vem com sistema inteligente ECP que protege eletronicamente as células da bateria.",
+        codigoProduto:8,
+        tituloProduto:"Giannis Freak", 
+        preco: 999.99, 
+        descricao:"Te deixa muito mais bonito",
         imagemProduto: {
-            img1:"./images/products/prod02/img1.png",
-            img2:"./images/products/prod02/img2.png",
-            img3:"./images/products/prod02/img3.png",
-            img4:"./images/products/prod02/img4.png",
-
+            img1:"images/Giannis Freak.avif",
+            img2:"images/Giannis Freak - Sola.avif",
+            img3:"images/Giannis Freak - Direita.avif",
+            img4:"images/Giannis Freak - Cima.avif",
+            img5:"images/Giannis Freak - Lado.avif",
+            img6:"images/Giannis Freak - Costas.avif",
         },
-        categoriaProduto: 'Ferramentas',
-        classificacaoProduto:"Mais_Vendidos",
+        categoriaProduto: 'Sneakers',
+        classificacaoProduto:"News",
         exibirHome: true
-        */
+    },
+    {
+        codigoProduto:9,
+        tituloProduto:"Book 1 Haven", 
+        preco: 999.99, 
+        descricao:"Te deixa muito mais bonito",
+        imagemProduto: {
+            img1:"images/Book 1 Haven.avif",
+            img2:"images/Book 1 Haven - Sola.avif",
+            img3:"images/Book 1 Haven - Direita.avif",
+            img4:"images/Book 1 Haven - Cima.avif",
+            img5:"images/Book 1 Haven - Lado.avif",
+            img6:"images/Book 1 Haven - Costas.avif",
+        },
+        categoriaProduto: 'Sneakers',
+        classificacaoProduto:"News",
+        exibirHome: true
+    },
+    {
+        codigoProduto:10,
+        tituloProduto:"Jordan 5 'El Grito'", 
+        preco: 999.99, 
+        descricao:"Te deixa muito mais bonito",
+        imagemProduto: {
+            img1:"images/Jordan 5 'El Grito'.avif",
+            img2:"images/Jordan 5 'El Grito' - Sola.avif",
+            img3:"images/Jordan 5 'El Grito' - Direita.avif",
+            img4:"images/Jordan 5 'El Grito' - Cima.avif",
+            img5:"images/Jordan 5 'El Grito' - Lado.avif",
+            img6:"images/Jordan 5 'El Grito' - Costas.avif",
+        },
+        categoriaProduto: 'Sneakers',
+        classificacaoProduto:"News",
+        exibirHome: true
     },
 ]

@@ -1,47 +1,65 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+  <html lang="pt-br">
+    <!-- Referencias de fonte, icones -->
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Belai Veículos</title>
-    <link rel="stylesheet" href="./styles/styles.css" />
-    <script type="module" src="./scripts/checkout.js" defer></script>
-    <link rel="shortcut icon" type="imagex/png" href="./images/car.png">
-  </head>
-
-  <body>
-    <header>
-      <div class="HeaderInfos">
-        <p>Campinas - SP</p>
-        <p>Localização - Av. John Boyd Dunlop, 858</p>
-        <p>Precisa de ajuda?</p>
-      </div>
-
-      <div class="HeaderPesquisa">
-        <a href="index.html">
-          <img src="./images/logoBLV.jpg" class="Logo"/>
-        </a>
-
-        <div class="BarraDePesquisa">
-          <input type="text" name="search" id="search" placeholder="Qual o Carro dos seus Sonhos?" />
-        </div>
-
-        <div class="IconesPesquisa">
-          <img src="./images/coracaoLogo.png" alt="Coração" />
-          <img src="./images/perfil-de-usuario.png" alt="Perfil" />
-          <a href="checkout.html">
-            <img src="./images/carrinho.png" alt="Carrinho" />
-          </a>
-        </div>
-      </div>
-
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="adm.html">Adm</a>
-        <a href="products.html">Products</a>
-        <a href="sobreNos.html">Sobre Nós</a>
-      </nav>
-    </header>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+      <link rel="stylesheet" href="styles/styles.css">
+      <script type="module" src="scripts/checkout.js" defer></script>
+      <title>Strider | Home</title>
+    </head>
+    <!-- Inicio do body -->
+    <body>
+    <!-- Inicio do Header -->
+        <header id="header">
+            <div class="blue_header">
+                <p>All products are on sale!!!</p>
+            </div>
+            <div class="info_bar">
+                <div class="header_logo_container">
+                        <span id="logo_stride">Stride</span>
+                        <span id="logo_sneakers">Sneakers</span>
+                </div>
+                    <nav class="container">
+                        <ul class="menus">
+                            <a id="menus_urls" href="index.html">Home</a>
+                            <a id="menus_urls" href="#products_section">Best Sellers</a>
+                            <a id="menus_urls" href="#products_section">Promotions</a>
+                            <a id="menus_urls" href="about_us.html">About us</a>
+                            <a id="menus_urls" href="products.html">All products</a>
+                        </ul>
+                    </nav>
+            </div>
+    <!-- Fim do header -->
+    
+    <!-- Inicio das abas de pesquisa,carrinho,etc -->
+            <div class="main_header">
+                <div class="container">
+                    <div class="icon_list">
+                        <i class="bi bi-list"></i>
+                    </div>
+                    <div class="header_search_bar">
+                        <i class="bi bi-search"></i>
+                        <input type="text" name="search" id="input_search" placeholder="What are you looking for?">
+                    </div>
+    
+                    <div class="header_icons">
+                      <a href="login.html">
+                        <i class="bi bi-person"></i>
+                      </a>
+                        <i class="bi bi-heart"></i>
+                        <a href="product.html">
+                          <i class="bi bi-bag"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
 
     <main class="product main-content container">
         <div class="product text-container">
@@ -114,60 +132,47 @@
       </section>
     </main>
 
-    <footer>
-      <div class="Infos">
-        <div class="InfoBox">     
-          <h2>Meios de Pagamento</h2>
-          <p>Parcelamos sua compra em até 48x sem juros em todos os cartões de crédito ou com até 5% de desconto à vista.</p>
-        </div>
-        <div class="InfoBox">
-          <h2>Nossos Contatos</h2>
-          <p>Cobertura em Todo o Território Nacional! Não importa onde você esteja.</p>
-          <p>(19)99999-9999</p>
-        </div>
-        <div class="InfoBox">
-          <h2>Atendimento</h2>
-          <p>Loja física Aberta das 08:00 às 20:00 Segunda a Sexta</p>
-          <p>(19)99999-9999</p>
-        </div>
-      </div>
-
-      <div class="Footer">
-        <div class="FooterSection">
-            <h3>Institucional</h3>
-            <ul>
-              <li><a href="sobreNos.html">Sobre Nós</a></li>
-              <li><a href="sobreNos.html">Fale Conosco</a></li>
-              <li><a href="sobreNos.html">Política de Troca</a></li>
-              <li><a href="sobreNos.html">Política de Privacidade</a></li>
-              <li><a href="sobreNos.html">Política de Envio</a></li>
-            </ul>
-        </div>
-
-        <div class="FooterSection">
-            <h3>Ajuda</h3>
-            <ul>
-                <li><a href="sobreNos.html">FAQ</a></li>
-                <li><a href="sobreNos.html">Termos de Uso</a></li>
-                <li><a href="sobreNos.html">Suporte</a></li>
-            </ul>
-        </div>
-
-        <div class="FooterSection social">
-            <h3>Siga nossas redes sociais</h3>
-            <p>Acompanhe as novidades pelas nossas redes sociais</p>
-            <div class="social-icons">
-                <img src="images/facebook.png" alt="Facebook">
-                <img src="images/instagram.png" alt="Instagram">
-                <img src="images/whatsapp.png" alt="TikTok">
+      <!-- Inicio do footer -->
+      <footer class="footer">
+        <div class="footer_content">
+            <div class="info_footer">
+                <h3>Return Policy</h3>
+                <p>We believe you should love your new pair of sneakers. If for any reason you are not satisfied, we offer a simple and transparent return policy. You can return or exchange your product within a specific timeframe, ensuring that your shopping experience is always positive.</p>
+            </div>
+    
+            <div class="info_footer">
+                <h3>Customer Service</h3>
+                <p>Your satisfaction is our priority. Our team is always ready to help, whether it’s to clarify questions about products, sizes, or the purchasing process. Contact us through our chat or email, and we will be pleased to assist you quickly and efficiently.</p>
+            </div>
+    
+            <div class="info_footer">
+                <h3>Leave Your Review</h3>
+                <p>Thank you for visiting our website! Your opinion is very important to us. We invite you to evaluate your experience, our products, and services. Your feedback helps us to continuously improve and offer solutions that meet your needs.</p>
             </div>
         </div>
-    </div>
-
-
-      <div class="DireitosReservados">
-        <p>© Campinas, SP - 2024 Leonardo Albergoni Viana - Todos os direitos reservados.</p>
-      </div>
+    
+        <div class="footer_icons">
+            <a href="https://www.linkedin.com/in/lucas-bareli-384021293/" target="_blank">
+                <i class="bi bi-linkedin"></i>
+            </a>    
+        
+            <span class="icon_container">
+                <a href="https://www.figma.com/design/hamj7hkitUuVq0Czg0jEob/Ecommerce?node-id=0-1&t=Dx8tAXSYwHN3zBvT-1" target="_blank">
+                    <img class="icons_redes" src="images/Icon Figma.png" alt="Figma">
+                </a>
+            </span>
+        
+            <a href="https://github.com/LucasBareli" target="_blank">
+                <i class="bi bi-github"></i>
+            </a>
+        </div>
+        
+        <div class="DireitosReservados">
+          <p>© Campinas, SP - 2024 Lucas Duarte Bareli - All rights reserved.</p>
+        </div>
+        
     </footer>
+    
   </body>
-</html>
+  </html>
+  <!-- Fim do código -->
