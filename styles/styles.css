@@ -94,10 +94,30 @@
 
 #header .icon_list {
     font-size: 30px;
+    cursor: pointer; 
 }
 
 #header .icon_list:hover {
-    color: #3c68aa;
+    color: #3c68aa; 
+}
+
+#header .header_icons a {
+    text-decoration: none;
+    color: inherit; 
+}
+
+#header .header_icons i {
+    font-size: 25px; 
+    margin: 0 10px;  
+    cursor: pointer;
+}
+
+#header .header_icons a:hover i {
+    color: #3c68aa; 
+}
+
+#header .header_icons i:hover {
+    color: #3c68aa; 
 }
 
 #header .header_search_bar {
@@ -538,17 +558,6 @@
 
 /* Start - About US */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-    font-family: "Inter", sans-serif;
-    box-sizing: border-box;
-}
-
-/* About us section*/
-
 #text_about_us h2{
     text-align: center;
     padding: 20px;
@@ -562,6 +571,7 @@
 #about_us {
     display: flex;
     align-items: center;
+    justify-content: center;
     background-color: #d8d8d8;
     padding: 10px;
     font-size: 20px;
@@ -572,7 +582,7 @@
 }
 
 #video_about_us {
-    margin-right: 20px;
+    width: 100%;
 }
 
 #text_about_us {
@@ -1423,3 +1433,4 @@ main {
     display: flex;
     flex-direction: column;
 }
+
