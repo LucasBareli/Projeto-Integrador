@@ -600,15 +600,15 @@ main {
     grid-template-columns: repeat(4, 1fr);  
     gap: 10px; 
     justify-content: center;
+    margin-right: 30px;
     align-items: center;
-    padding-right: 150px;
     padding-bottom: 80px;
 }
 
 #title_ours_products{
     text-transform: uppercase;
     padding-left: 40px;
-    font-size: 30px;
+    font-size: 40px;
     font-family: "Inter", sans-serif;
 }
 
@@ -624,7 +624,8 @@ main {
 
 .options {
     display: flex;
-    padding: 0 110px;
+    justify-content: end;
+    margin-right: 35px;
 }
 
 .icon-item {
@@ -654,7 +655,7 @@ main {
     grid-template-columns: repeat(3, 1fr); 
     gap: 10px; 
     list-style-type: none; 
-    padding: 0; 
+    padding: 15px;
 }
 
 .size_box {
@@ -678,7 +679,7 @@ main {
 .filters {
     width: 400px; 
     background-color: #f9f9f9;
-    padding: 20px;
+    padding: 30px;
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
@@ -742,6 +743,49 @@ main {
     border: 1px solid #ccc; 
     border-radius: 5px; 
     margin-bottom: 10px; 
+}
+
+.filter_category_comments {
+    margin-bottom: 20px; 
+    font-size: 18px; 
+    margin-bottom: 10px;
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 5px;
+    width: 100%; 
+}
+ 
+.filter_category_comments input {
+    padding: 8px; 
+    border: 1px solid #ccc; 
+    border-radius: 15px; 
+    margin-bottom: 10px;
+    width: 300px; 
+}
+
+#input_comments {
+    color: #3c68aa;
+}
+
+.feedback-container {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+  h4 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+.stars {
+    color: gold;
+    font-size: 25px;
+}
+
+.store_name {
+    padding-top: 200px;
+    text-align: center;
 }
 
 .card-all {
