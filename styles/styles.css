@@ -558,6 +558,19 @@
 
 /* Start - About US */
 
+@keyframes wipe-in-right {
+    from {
+      clip-path: inset(0 100% 0 0);
+    }
+    to {
+      clip-path: inset(0 0 0 0);
+    }
+  }
+  
+  [transition-style="in:wipe:right"] {
+    animation: 2.5s cubic-bezier(.25, 1, .30, 1) wipe-in-right both;
+  }
+
 #text_about_us h2{
     text-align: center;
     padding: 20px;
@@ -566,6 +579,7 @@
     color: #333; 
     text-transform: uppercase; 
     letter-spacing: 2px; 
+    animation: wipe-in-right 4s;
 }
 
 #about_us {
@@ -1107,69 +1121,128 @@ main {
     border-radius: 15px;
 }
 
-.product-card-title , 
-.product-card-reference,
-.product-card-price {
-    font-size: 1em;
-    font-weight: 400;
-    line-height:1.125em ;
-    
-}
-
-.product-card-title{
-        height: 36px;
-        display: -webkit-box;
-        line-clamp: 2;
-        -webkit-line-clamp: 2;
-        -webkit-box-orient: vertical;  
-        overflow: hidden;
-        text-overflow: ellipsis;
-}
-
-.product-card-reference{
-    padding-top: 25px;
-    padding-bottom: 16px;
-    font-size: 12px;
-    font-weight: 300;
-
-}
-
-.product-card-price {
-    font-size: 1.5em;
-    font-weight: 700;
-    padding-bottom: 12px;
-}
-
-.product-card-installment {
-    font-size: 0.75em;
-    padding-bottom: 17px;
-    font-weight: 300;
-}
-
 .product-card {
     display: flex;
     flex-direction: column;
     background-color: #ffffff; 
-    padding:16px;
+    padding: 18px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    max-width: 280px; 
+    width: 100%;
     flex-grow: 0;
     flex-shrink: 0;
-    flex-basis: 200px;
-    border-radius: 15px;
-    box-shadow: 2px 4px 4px 1px rgba(0, 0, 0, 0.04);
+    margin: 0 auto;
+    overflow: hidden;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.product-card:hover {
+    transform: translateY(-6px); 
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2); 
 }
 
 .product-card img {
-    width:100%;
-    border-radius: 15px;
+    width: 100%;
+    height: 200px;
     object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease, border-radius 0.3s ease;
+}
+
+.product-card img:hover {
+    transform: scale(1.05);  
+    border-radius: 15px; 
+}
+
+.product-card-title {
+    font-size: 1.3em;  
+    font-weight: 700;  
+    line-height: 1.4em;
+    text-align: center;
+    color: #000000;  
+    margin-top: 20px;
+    height: 50px;  
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    text-transform: capitalize;  
+}
+
+.product-card-reference {
+    font-size: 0.85em;
+    font-weight: 300;
+    color: #d9d9d9;
+    margin-top: 8px;
+    text-transform: uppercase; 
+}
+
+.product-card-price {
+    font-size: 1.7em;  
+    font-weight: 800;
+    color: rgb(0, 0, 0);  
+    margin-top: 18px;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.product-card-installment {
+    font-size: 0.9em;
+    font-weight: 300;
+    color: #d9d9d9;
+    text-align: center;
+    margin-top: 6px;
 }
 
 .product-card-btn {
-    width: 100%;
-    padding: 5px 20px;
-    background-color: #ffffff;
-    border-radius: 15px;
-    color: #000;
+    background-color: #000000; 
+    color: #fff;  
+    font-size: 1em;
+    font-weight: 600; 
+    padding: 12px 20px;
+    border-radius: 25px;  
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+    text-transform: uppercase; 
+    letter-spacing: 1px;
+
+}
+
+.product-card-btn:hover {
+    background-color: #3c68aa;  
+    transform: translateY(-3px);  
+}
+
+.product-card-btn:active {
+    background-color: #3c68aa; 
+    transform: translateY(0); 
+}
+
+.product-card-btn:focus {
+    outline: none; 
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+}
+
+.carousel-container {
+    display: flex;
+    overflow-x: scroll;
+    gap: 20px;
+    padding: 20px 0;
+    background-color: #000;
+    scroll-snap-type: x mandatory; 
+    -webkit-overflow-scrolling: touch;
+}
+
+.carousel-container::-webkit-scrollbar {
+    display: none;
+}
+
+.carousel-item.active {
+    transform: scale(1.05); 
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);  
 }
 
 .products-container {
