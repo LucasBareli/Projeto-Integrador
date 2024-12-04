@@ -604,10 +604,10 @@ main {
     padding-top: 30px;
 }
 
-.section-product-all {
+.section-product-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);  
-    gap: 10px; 
+    gap: 60px; 
     justify-content: center;
     margin-right: 30px;
     align-items: center;
