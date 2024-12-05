@@ -314,7 +314,7 @@
     margin-bottom: 15px; 
     transition: color 0.3s ease, transform 0.3s ease;  
 }
-  
+
 .card {
   min-width: 350px;
   background-color: #ffffff;
@@ -966,13 +966,21 @@ main {
 }
 
 .form-links a {
-    color: #007bff;
+    color: #000000;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
-.form-links a:hover {
+.form-links #show-register {
     color: #0056b3;
+}
+
+.form-links #show-login :hover   {
+    text-decoration: underline;
+}
+
+.form-links a:hover {
+    text-decoration: underline;
 }
 
 .hidden {
