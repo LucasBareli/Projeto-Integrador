@@ -99,7 +99,6 @@
 
 #header .icon_list:hover {
     color: #3c68aa;
-    
 }
 
 #header .header_icons a {
@@ -239,6 +238,10 @@
 
 .promotion:hover img {
     transform: scale(1.1);  
+}
+
+.promotion a {
+    text-decoration: none;
 }
 
 .promotion p {
