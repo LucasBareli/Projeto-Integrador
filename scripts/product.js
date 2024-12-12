@@ -29,3 +29,22 @@ botaoComprar.addEventListener('click',()=>{
     console.log(listaCompras)
     window.location = "./checkout.html"
 })
+
+
+document.addEventListener('DOMContentLoaded', () => {
+    // Seleciona as miniaturas e a imagem principal
+    const thumbImages = document.querySelectorAll('.product_thumb');
+    const mainImage = document.querySelector('.images_main img');
+  
+    // Função para trocar a imagem principal
+    function changeMainImage(event) {
+      const newImageSrc = event.target.src;  // Pega o caminho da miniatura clicada
+      mainImage.src = newImageSrc;  // Troca o src da imagem principal
+    }
+  
+    // Adiciona evento de clique em cada miniatura
+    thumbImages.forEach(thumb => {
+      thumb.addEventListener('click', changeMainImage);
+    });
+  });
+  
