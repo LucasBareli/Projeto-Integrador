@@ -1323,6 +1323,10 @@ main {
     column-gap: 32px;
 }
 
+.product_images_container:hover {
+    cursor: pointer;
+}
+
 .images_selector{
     display: flex;
     flex-direction: column;
