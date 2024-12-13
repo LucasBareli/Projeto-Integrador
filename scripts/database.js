@@ -2,7 +2,7 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
     {
         codigoProduto:1,
         tituloProduto:"Jordan 4 Metalic Gold", 
-        preco: 999.99, 
+        preco: 849.99, 
         descricao:"O Jordan 4 Metallic Gold é uma edição sofisticada do clássico Air Jordan 4, com detalhes dourados metálicos que adicionam luxo ao design. A parte superior é feita de couro branco de alta qualidade, proporcionando um visual clean e moderno. O dourado metálico aparece no logo Jumpman, na gola e na entressola. O tênis mantém o famoso sistema de amortecimento Air-Sole, garantindo conforto e suporte. Ideal para fãs da marca, ele oferece um estilo versátil para ocasiões casuais e sofisticadas. Uma edição limitada, desejada por colecionadores e entusiastas da moda.",
         imagemProduto: {
             img1:"images/Jordan 4 Metalic Gold.avif",
@@ -19,7 +19,7 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
     {
         codigoProduto:2,
         tituloProduto:"Jordan 4 Thunder", 
-        preco: 999.99, 
+        preco: 849.99, 
         descricao:"O Jordan 4 Thunder é uma versão ousada e vibrante do icônico Air Jordan 4, com uma combinação de cores intensa que destaca o design arrojado. A parte superior do tênis é confeccionada em couro preto e amarelo vibrante, proporcionando um contraste marcante e cheio de personalidade. O modelo conta com detalhes em preto, enquanto o amarelo brilha no logo Jumpman, na entressola e na gola, dando um toque de energia e dinamismo. O sistema de amortecimento Air-Sole oferece o conforto necessário para o uso diário, enquanto o design robusto é ideal para quem busca estilo e desempenho. Com um visual arrojado, o Jordan 4 Thunder é perfeito para os amantes de sneakers que apreciam um toque de exclusividade e estilo. Uma edição que não passa despercebida, ideal para quem deseja marcar presença em qualquer ocasião.",
         imagemProduto: {
             img1:"images/Jordan 4 Thunder.avif",
@@ -36,7 +36,7 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
     {
         codigoProduto:3,
         tituloProduto:"Jordan 4 Wet Cement", 
-        preco: 999.99, 
+        preco: 849.99, 
         descricao:"O Jordan 4 Wet Cement traz uma nova abordagem ao clássico Air Jordan 4, combinando elementos modernos com o estilo retrô que tornou o modelo famoso. A parte superior é construída em couro e camurça de alta qualidade, apresentando uma paleta de cores neutras com tons de cinza e preto, que são realçados por detalhes em branco e as icônicas manchas de cimento. O design é robusto, com a entressola e o logo Jumpman em tons contrastantes, criando um visual equilibrado e sofisticado. Equipado com o sistema de amortecimento Air-Sole, o Jordan 4 Wet Cement garante conforto e suporte o dia todo. Ideal para quem busca um sneaker versátil, que combina perfeitamente com looks casuais e urbanos, sem perder a essência única dos clássicos Jordans. Uma opção indispensável para fãs de sneakers e colecionadores que valorizam tanto estilo quanto desempenho.",
         imagemProduto: {
             img1:"images/Jordan 4 Wet Cement.avif",
@@ -53,7 +53,7 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
     {
         codigoProduto:4,
         tituloProduto:"Dunk Low Malachite", 
-        preco: 999.99, 
+        preco: 899.99, 
         descricao:"O Dunk Low Malachite é uma versão ousada e elegante do clássico modelo da Nike, trazendo uma combinação única de cores e materiais que chamam a atenção. Com sua parte superior em couro de alta qualidade e camurça, o tênis mistura tons vibrantes de verde malachite com detalhes em branco e preto, criando um visual equilibrado e moderno. O design robusto e atemporal do Dunk é complementado pela entressola confortável e resistente, garantindo um desempenho excelente tanto para atividades diárias quanto para o estilo urbano. A silhueta versátil do Dunk Low Malachite faz dele uma escolha perfeita para quem busca um sneaker que se destaque, seja no dia a dia ou em ocasiões casuais. Ideal para fãs da linha Dunk, este modelo é uma verdadeira peça de coleção que une conforto, durabilidade e estilo inconfundível.",
         imagemProduto: {
             img1:"images/Dunk Low Malachite.avif",
@@ -70,7 +70,7 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
     {
         codigoProduto:5,
         tituloProduto:"Dunk Low Black Raspberry", 
-        preco: 999.99, 
+        preco: 899.99, 
         descricao:"O Dunk Low Black Raspberry é uma interpretação moderna e elegante do clássico modelo da Nike, trazendo uma explosão de cores vibrantes que se destacam no cenário dos sneakers. Sua parte superior é composta por couro de alta qualidade e camurça, combinando o preto profundo com o tom frutado de rosa-raspberry, criando um contraste marcante e sofisticado. A entressola branca oferece conforto e estabilidade, enquanto o solado de borracha garante durabilidade e tração. A silhueta clássica do Dunk é atualizada com um toque de ousadia, tornando este modelo perfeito tanto para os amantes de tênis quanto para quem busca um estilo único. Ideal para quem deseja um sneaker que combine com looks casuais e urbanos, o Dunk Low Black Raspberry é uma escolha ousada e cheia de personalidade.",
         imagemProduto: {
             img1:"images/Dunk Low Black Raspberry.avif",
@@ -87,7 +87,7 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
     {
         codigoProduto:6,
         tituloProduto:"Dunk Low Vintage Green", 
-        preco: 999.99, 
+        preco: 899.99, 
         descricao:"O Dunk Low Vintage Green traz um toque retrô e fresco ao icônico modelo da Nike, combinando o charme do passado com o estilo moderno. Sua parte superior é feita de couro premium e camurça macia, apresentando uma tonalidade verde vintage que remete aos anos 90, em perfeita harmonia com detalhes em branco e cinza claro. O design clássico da silhueta Dunk é reforçado com um toque de nostalgia, enquanto a entressola branca proporciona conforto o dia todo e o solado de borracha oferece tração e durabilidade. Com uma vibe urbana e descomplicada, o Dunk Low Vintage Green é perfeito para quem busca um tênis versátil que une estilo, conforto e um toque de história. Ideal para completar tanto looks casuais quanto para um visual mais despojado e atemporal.",
         imagemProduto: {
             img1:"images/Dunk Low Vintage Green.avif",
@@ -121,7 +121,7 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
     {
         codigoProduto:8,
         tituloProduto:"Giannis Freak", 
-        preco: 999.99, 
+        preco: 799.99, 
         descricao:"O Giannis Freak é o tênis que personifica a força e a agilidade do famoso jogador de basquete Giannis Antetokounmpo. Desenvolvido para atender às exigências dos atletas de alto nível, este modelo é perfeito para quem busca desempenho sem abrir mão do estilo. A parte superior do tênis combina materiais leves e duráveis, proporcionando suporte excepcional durante movimentos rápidos e explosivos em quadra. O design moderno é complementado por detalhes únicos que fazem referência à trajetória de Giannis, incluindo seu logo e elementos gráficos inspirados em sua herança cultural. O sistema de amortecimento responsivo e o solado de borracha com padrão de tração avançada garantem conforto e aderência durante os jogos mais intensos. Versátil e impactante, o Giannis Freak também é uma excelente escolha para quem deseja um sneaker de performance para o dia a dia, com um visual que exala atitude e inovação.",
         imagemProduto: {
             img1:"images/Giannis Freak.avif",
@@ -138,7 +138,7 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
     {
         codigoProduto:9,
         tituloProduto:"Book 1 Haven", 
-        preco: 999.99, 
+        preco: 599.99, 
         descricao:"O Book 1 Haven é um tênis que combina inovação e estilo contemporâneo, projetado para oferecer não apenas desempenho, mas também um visual arrojado e único. Com uma silhueta moderna, o modelo é perfeito para aqueles que procuram conforto e versatilidade, tanto para o uso diário quanto para momentos de lazer. Sua parte superior é feita de materiais de alta qualidade, com detalhes que proporcionam resistência e respirabilidade, mantendo os pés frescos durante o uso prolongado. O design minimalista é complementado por toques sofisticados, como o logo discreto e acabamentos cuidadosamente elaborados. O sistema de amortecimento proporciona conforto o dia todo, e o solado de borracha com padrão de tração garante estabilidade e aderência. Ideal para quem aprecia um visual clean, o Book 1 Haven é um verdadeiro curinga no guarda-roupa, pronto para se destacar em qualquer ocasião, com a combinação perfeita entre funcionalidade e estilo.",
         imagemProduto: {
             img1:"images/Book 1 Haven.avif",
@@ -155,7 +155,7 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
     {
         codigoProduto:10,
         tituloProduto:"Jordan 5 'El Grito'", 
-        preco: 999.99, 
+        preco: 699.99, 
         descricao:"O Jordan 5 El Grito é uma edição limitada que celebra a cultura e a paixão do basquete com um design ousado e vibrante. Inspirado pela energia e pela história das vitórias de Michael Jordan, esse modelo apresenta uma mistura de detalhes únicos e cores marcantes. Com a clássica silhueta do Jordan 5, o tênis exibe um acabamento em couro de alta qualidade, complementado por detalhes em cores fortes e contrastantes, trazendo à tona um estilo distinto que chama atenção. O icônico logo Jumpman e as famosas guelras na lateral são acentuados, conferindo ao modelo um toque de dinamismo e força.Além da estética, o Jordan 5 El Grito mantém as características que tornaram esse modelo um dos mais reconhecidos no mundo dos sneakers, como o sistema de amortecimento Air-Sole para máximo conforto e suporte, e a sola de borracha com padrão de tração para excelente aderência. Ideal para quem busca um tênis com estilo marcante e desempenho superior, o Jordan 5 El Grito é a escolha perfeita para os apaixonados pela marca e colecionadores de edições especiais.",
         imagemProduto: {
             img1:"images/Jordan 5 'El Grito'.avif",
@@ -172,7 +172,7 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
     {
         codigoProduto:11,
         tituloProduto:"Jordan 4 Metalic Gold", 
-        preco: 999.99, 
+        preco: 849.99, 
         descricao:"O Jordan 4 Metallic Gold é uma edição sofisticada do clássico Air Jordan 4, com detalhes dourados metálicos que adicionam luxo ao design. A parte superior é feita de couro branco de alta qualidade, proporcionando um visual clean e moderno. O dourado metálico aparece no logo Jumpman, na gola e na entressola. O tênis mantém o famoso sistema de amortecimento Air-Sole, garantindo conforto e suporte. Ideal para fãs da marca, ele oferece um estilo versátil para ocasiões casuais e sofisticadas. Uma edição limitada, desejada por colecionadores e entusiastas da moda.",
         imagemProduto: {
             img1:"images/Jordan 4 Metalic Gold.avif",
@@ -189,7 +189,7 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
     {
         codigoProduto:12,
         tituloProduto:"Jordan 4 Thunder", 
-        preco: 999.99, 
+        preco: 849.99, 
         descricao:"O Jordan 4 Thunder é uma versão ousada e vibrante do icônico Air Jordan 4, com uma combinação de cores intensa que destaca o design arrojado. A parte superior do tênis é confeccionada em couro preto e amarelo vibrante, proporcionando um contraste marcante e cheio de personalidade. O modelo conta com detalhes em preto, enquanto o amarelo brilha no logo Jumpman, na entressola e na gola, dando um toque de energia e dinamismo. O sistema de amortecimento Air-Sole oferece o conforto necessário para o uso diário, enquanto o design robusto é ideal para quem busca estilo e desempenho. Com um visual arrojado, o Jordan 4 Thunder é perfeito para os amantes de sneakers que apreciam um toque de exclusividade e estilo. Uma edição que não passa despercebida, ideal para quem deseja marcar presença em qualquer ocasião.",
         imagemProduto: {
             img1:"images/Jordan 4 Thunder.avif",
@@ -206,7 +206,7 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
     {
         codigoProduto:13,
         tituloProduto:"Jordan 4 Wet Cement", 
-        preco: 999.99, 
+        preco: 849.99, 
         descricao:"O Jordan 4 Wet Cement traz uma nova abordagem ao clássico Air Jordan 4, combinando elementos modernos com o estilo retrô que tornou o modelo famoso. A parte superior é construída em couro e camurça de alta qualidade, apresentando uma paleta de cores neutras com tons de cinza e preto, que são realçados por detalhes em branco e as icônicas manchas de cimento. O design é robusto, com a entressola e o logo Jumpman em tons contrastantes, criando um visual equilibrado e sofisticado. Equipado com o sistema de amortecimento Air-Sole, o Jordan 4 Wet Cement garante conforto e suporte o dia todo. Ideal para quem busca um sneaker versátil, que combina perfeitamente com looks casuais e urbanos, sem perder a essência única dos clássicos Jordans. Uma opção indispensável para fãs de sneakers e colecionadores que valorizam tanto estilo quanto desempenho.",
         imagemProduto: {
             img1:"images/Jordan 4 Wet Cement.avif",
@@ -223,7 +223,7 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
     {
         codigoProduto:14,
         tituloProduto:"Dunk Low Malachite", 
-        preco: 999.99, 
+        preco: 899.99, 
         descricao:"O Dunk Low Malachite é uma versão ousada e elegante do clássico modelo da Nike, trazendo uma combinação única de cores e materiais que chamam a atenção. Com sua parte superior em couro de alta qualidade e camurça, o tênis mistura tons vibrantes de verde malachite com detalhes em branco e preto, criando um visual equilibrado e moderno. O design robusto e atemporal do Dunk é complementado pela entressola confortável e resistente, garantindo um desempenho excelente tanto para atividades diárias quanto para o estilo urbano. A silhueta versátil do Dunk Low Malachite faz dele uma escolha perfeita para quem busca um sneaker que se destaque, seja no dia a dia ou em ocasiões casuais. Ideal para fãs da linha Dunk, este modelo é uma verdadeira peça de coleção que une conforto, durabilidade e estilo inconfundível.",
         imagemProduto: {
             img1:"images/Dunk Low Malachite.avif",
@@ -240,7 +240,7 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
     {
         codigoProduto:15,
         tituloProduto:"Dunk Low Black Raspberry", 
-        preco: 999.99, 
+        preco: 899.99, 
         descricao:"O Dunk Low Black Raspberry é uma interpretação moderna e elegante do clássico modelo da Nike, trazendo uma explosão de cores vibrantes que se destacam no cenário dos sneakers. Sua parte superior é composta por couro de alta qualidade e camurça, combinando o preto profundo com o tom frutado de rosa-raspberry, criando um contraste marcante e sofisticado. A entressola branca oferece conforto e estabilidade, enquanto o solado de borracha garante durabilidade e tração. A silhueta clássica do Dunk é atualizada com um toque de ousadia, tornando este modelo perfeito tanto para os amantes de tênis quanto para quem busca um estilo único. Ideal para quem deseja um sneaker que combine com looks casuais e urbanos, o Dunk Low Black Raspberry é uma escolha ousada e cheia de personalidade.",
         imagemProduto: {
             img1:"images/Dunk Low Black Raspberry.avif",
@@ -257,7 +257,7 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
     {
         codigoProduto:16,
         tituloProduto:"Dunk Low Vintage Green", 
-        preco: 999.99, 
+        preco: 899.99, 
         descricao:"O Dunk Low Vintage Green traz um toque retrô e fresco ao icônico modelo da Nike, combinando o charme do passado com o estilo moderno. Sua parte superior é feita de couro premium e camurça macia, apresentando uma tonalidade verde vintage que remete aos anos 90, em perfeita harmonia com detalhes em branco e cinza claro. O design clássico da silhueta Dunk é reforçado com um toque de nostalgia, enquanto a entressola branca proporciona conforto o dia todo e o solado de borracha oferece tração e durabilidade. Com uma vibe urbana e descomplicada, o Dunk Low Vintage Green é perfeito para quem busca um tênis versátil que une estilo, conforto e um toque de história. Ideal para completar tanto looks casuais quanto para um visual mais despojado e atemporal.",
         imagemProduto: {
             img1:"images/Dunk Low Vintage Green.avif",
@@ -291,7 +291,7 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
     {
         codigoProduto:18,
         tituloProduto:"Giannis Freak", 
-        preco: 999.99, 
+        preco: 799.99, 
         descricao:"O Giannis Freak é o tênis que personifica a força e a agilidade do famoso jogador de basquete Giannis Antetokounmpo. Desenvolvido para atender às exigências dos atletas de alto nível, este modelo é perfeito para quem busca desempenho sem abrir mão do estilo. A parte superior do tênis combina materiais leves e duráveis, proporcionando suporte excepcional durante movimentos rápidos e explosivos em quadra. O design moderno é complementado por detalhes únicos que fazem referência à trajetória de Giannis, incluindo seu logo e elementos gráficos inspirados em sua herança cultural. O sistema de amortecimento responsivo e o solado de borracha com padrão de tração avançada garantem conforto e aderência durante os jogos mais intensos. Versátil e impactante, o Giannis Freak também é uma excelente escolha para quem deseja um sneaker de performance para o dia a dia, com um visual que exala atitude e inovação.",
         imagemProduto: {
             img1:"images/Giannis Freak.avif",
@@ -308,7 +308,7 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
     {
         codigoProduto:19,
         tituloProduto:"Book 1 Haven", 
-        preco: 999.99, 
+        preco: 599.99, 
         descricao:"O Book 1 Haven é um tênis que combina inovação e estilo contemporâneo, projetado para oferecer não apenas desempenho, mas também um visual arrojado e único. Com uma silhueta moderna, o modelo é perfeito para aqueles que procuram conforto e versatilidade, tanto para o uso diário quanto para momentos de lazer. Sua parte superior é feita de materiais de alta qualidade, com detalhes que proporcionam resistência e respirabilidade, mantendo os pés frescos durante o uso prolongado. O design minimalista é complementado por toques sofisticados, como o logo discreto e acabamentos cuidadosamente elaborados. O sistema de amortecimento proporciona conforto o dia todo, e o solado de borracha com padrão de tração garante estabilidade e aderência. Ideal para quem aprecia um visual clean, o Book 1 Haven é um verdadeiro curinga no guarda-roupa, pronto para se destacar em qualquer ocasião, com a combinação perfeita entre funcionalidade e estilo.",
         imagemProduto: {
             img1:"images/Book 1 Haven.avif",
@@ -325,7 +325,7 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
     {
         codigoProduto:20,
         tituloProduto:"Jordan 5 'El Grito'", 
-        preco: 999.99, 
+        preco: 699.99, 
         descricao:"O Jordan 5 El Grito é uma edição limitada que celebra a cultura e a paixão do basquete com um design ousado e vibrante. Inspirado pela energia e pela história das vitórias de Michael Jordan, esse modelo apresenta uma mistura de detalhes únicos e cores marcantes. Com a clássica silhueta do Jordan 5, o tênis exibe um acabamento em couro de alta qualidade, complementado por detalhes em cores fortes e contrastantes, trazendo à tona um estilo distinto que chama atenção. O icônico logo Jumpman e as famosas guelras na lateral são acentuados, conferindo ao modelo um toque de dinamismo e força.Além da estética, o Jordan 5 El Grito mantém as características que tornaram esse modelo um dos mais reconhecidos no mundo dos sneakers, como o sistema de amortecimento Air-Sole para máximo conforto e suporte, e a sola de borracha com padrão de tração para excelente aderência. Ideal para quem busca um tênis com estilo marcante e desempenho superior, o Jordan 5 El Grito é a escolha perfeita para os apaixonados pela marca e colecionadores de edições especiais.",
         imagemProduto: {
             img1:"images/Jordan 5 'El Grito'.avif",
@@ -342,7 +342,7 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
     {
         codigoProduto:21,
         tituloProduto:"Dunk Low Black Raspberry", 
-        preco: 999.99, 
+        preco: 899.99, 
         descricao:"O Dunk Low Black Raspberry é uma interpretação moderna e elegante do clássico modelo da Nike, trazendo uma explosão de cores vibrantes que se destacam no cenário dos sneakers. Sua parte superior é composta por couro de alta qualidade e camurça, combinando o preto profundo com o tom frutado de rosa-raspberry, criando um contraste marcante e sofisticado. A entressola branca oferece conforto e estabilidade, enquanto o solado de borracha garante durabilidade e tração. A silhueta clássica do Dunk é atualizada com um toque de ousadia, tornando este modelo perfeito tanto para os amantes de tênis quanto para quem busca um estilo único. Ideal para quem deseja um sneaker que combine com looks casuais e urbanos, o Dunk Low Black Raspberry é uma escolha ousada e cheia de personalidade.",
         imagemProduto: {
             img1:"images/Dunk Low Black Raspberry.avif",
@@ -359,7 +359,7 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
     {
         codigoProduto:22,
         tituloProduto:"Dunk Low Vintage Green", 
-        preco: 999.99, 
+        preco: 899.99, 
         descricao:"O Dunk Low Vintage Green traz um toque retrô e fresco ao icônico modelo da Nike, combinando o charme do passado com o estilo moderno. Sua parte superior é feita de couro premium e camurça macia, apresentando uma tonalidade verde vintage que remete aos anos 90, em perfeita harmonia com detalhes em branco e cinza claro. O design clássico da silhueta Dunk é reforçado com um toque de nostalgia, enquanto a entressola branca proporciona conforto o dia todo e o solado de borracha oferece tração e durabilidade. Com uma vibe urbana e descomplicada, o Dunk Low Vintage Green é perfeito para quem busca um tênis versátil que une estilo, conforto e um toque de história. Ideal para completar tanto looks casuais quanto para um visual mais despojado e atemporal.",
         imagemProduto: {
             img1:"images/Dunk Low Vintage Green.avif",
@@ -393,7 +393,7 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
     {
         codigoProduto:24,
         tituloProduto:"Giannis Freak", 
-        preco: 999.99, 
+        preco: 799.99, 
         descricao:"O Giannis Freak é o tênis que personifica a força e a agilidade do famoso jogador de basquete Giannis Antetokounmpo. Desenvolvido para atender às exigências dos atletas de alto nível, este modelo é perfeito para quem busca desempenho sem abrir mão do estilo. A parte superior do tênis combina materiais leves e duráveis, proporcionando suporte excepcional durante movimentos rápidos e explosivos em quadra. O design moderno é complementado por detalhes únicos que fazem referência à trajetória de Giannis, incluindo seu logo e elementos gráficos inspirados em sua herança cultural. O sistema de amortecimento responsivo e o solado de borracha com padrão de tração avançada garantem conforto e aderência durante os jogos mais intensos. Versátil e impactante, o Giannis Freak também é uma excelente escolha para quem deseja um sneaker de performance para o dia a dia, com um visual que exala atitude e inovação.",
         imagemProduto: {
             img1:"images/Giannis Freak.avif",
@@ -410,7 +410,7 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
     {
         codigoProduto:25,
         tituloProduto:"Book 1 Haven", 
-        preco: 999.99, 
+        preco: 599.99, 
         descricao:"O Book 1 Haven é um tênis que combina inovação e estilo contemporâneo, projetado para oferecer não apenas desempenho, mas também um visual arrojado e único. Com uma silhueta moderna, o modelo é perfeito para aqueles que procuram conforto e versatilidade, tanto para o uso diário quanto para momentos de lazer. Sua parte superior é feita de materiais de alta qualidade, com detalhes que proporcionam resistência e respirabilidade, mantendo os pés frescos durante o uso prolongado. O design minimalista é complementado por toques sofisticados, como o logo discreto e acabamentos cuidadosamente elaborados. O sistema de amortecimento proporciona conforto o dia todo, e o solado de borracha com padrão de tração garante estabilidade e aderência. Ideal para quem aprecia um visual clean, o Book 1 Haven é um verdadeiro curinga no guarda-roupa, pronto para se destacar em qualquer ocasião, com a combinação perfeita entre funcionalidade e estilo.",
         imagemProduto: {
             img1:"images/Book 1 Haven.avif",
@@ -427,7 +427,7 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
     {
         codigoProduto:26,
         tituloProduto:"Jordan 5 'El Grito'", 
-        preco: 999.99, 
+        preco: 699.99, 
         descricao:"O Jordan 5 El Grito é uma edição limitada que celebra a cultura e a paixão do basquete com um design ousado e vibrante. Inspirado pela energia e pela história das vitórias de Michael Jordan, esse modelo apresenta uma mistura de detalhes únicos e cores marcantes. Com a clássica silhueta do Jordan 5, o tênis exibe um acabamento em couro de alta qualidade, complementado por detalhes em cores fortes e contrastantes, trazendo à tona um estilo distinto que chama atenção. O icônico logo Jumpman e as famosas guelras na lateral são acentuados, conferindo ao modelo um toque de dinamismo e força.Além da estética, o Jordan 5 El Grito mantém as características que tornaram esse modelo um dos mais reconhecidos no mundo dos sneakers, como o sistema de amortecimento Air-Sole para máximo conforto e suporte, e a sola de borracha com padrão de tração para excelente aderência. Ideal para quem busca um tênis com estilo marcante e desempenho superior, o Jordan 5 El Grito é a escolha perfeita para os apaixonados pela marca e colecionadores de edições especiais.",
         imagemProduto: {
             img1:"images/Jordan 5 'El Grito'.avif",
@@ -444,7 +444,7 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
     {
         codigoProduto:27,
         tituloProduto:"Jordan 4 Metalic Gold", 
-        preco: 999.99, 
+        preco: 849.99, 
         descricao:"O Jordan 4 Metallic Gold é uma edição sofisticada do clássico Air Jordan 4, com detalhes dourados metálicos que adicionam luxo ao design. A parte superior é feita de couro branco de alta qualidade, proporcionando um visual clean e moderno. O dourado metálico aparece no logo Jumpman, na gola e na entressola. O tênis mantém o famoso sistema de amortecimento Air-Sole, garantindo conforto e suporte. Ideal para fãs da marca, ele oferece um estilo versátil para ocasiões casuais e sofisticadas. Uma edição limitada, desejada por colecionadores e entusiastas da moda.",
         imagemProduto: {
             img1:"images/Jordan 4 Metalic Gold.avif",
@@ -461,7 +461,7 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
     {
         codigoProduto:28,
         tituloProduto:"Jordan 4 Thunder", 
-        preco: 999.99, 
+        preco: 849.99, 
         descricao:"O Jordan 4 Thunder é uma versão ousada e vibrante do icônico Air Jordan 4, com uma combinação de cores intensa que destaca o design arrojado. A parte superior do tênis é confeccionada em couro preto e amarelo vibrante, proporcionando um contraste marcante e cheio de personalidade. O modelo conta com detalhes em preto, enquanto o amarelo brilha no logo Jumpman, na entressola e na gola, dando um toque de energia e dinamismo. O sistema de amortecimento Air-Sole oferece o conforto necessário para o uso diário, enquanto o design robusto é ideal para quem busca estilo e desempenho. Com um visual arrojado, o Jordan 4 Thunder é perfeito para os amantes de sneakers que apreciam um toque de exclusividade e estilo. Uma edição que não passa despercebida, ideal para quem deseja marcar presença em qualquer ocasião.",
         imagemProduto: {
             img1:"images/Jordan 4 Thunder.avif",
@@ -478,7 +478,7 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
     {
         codigoProduto:29,
         tituloProduto:"Jordan 4 Wet Cement", 
-        preco: 999.99, 
+        preco: 849.99, 
         descricao:"O Jordan 4 Wet Cement traz uma nova abordagem ao clássico Air Jordan 4, combinando elementos modernos com o estilo retrô que tornou o modelo famoso. A parte superior é construída em couro e camurça de alta qualidade, apresentando uma paleta de cores neutras com tons de cinza e preto, que são realçados por detalhes em branco e as icônicas manchas de cimento. O design é robusto, com a entressola e o logo Jumpman em tons contrastantes, criando um visual equilibrado e sofisticado. Equipado com o sistema de amortecimento Air-Sole, o Jordan 4 Wet Cement garante conforto e suporte o dia todo. Ideal para quem busca um sneaker versátil, que combina perfeitamente com looks casuais e urbanos, sem perder a essência única dos clássicos Jordans. Uma opção indispensável para fãs de sneakers e colecionadores que valorizam tanto estilo quanto desempenho.",
         imagemProduto: {
             img1:"images/Jordan 4 Wet Cement.avif",
@@ -495,7 +495,7 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
     {
         codigoProduto:30,
         tituloProduto:"Dunk Low Malachite", 
-        preco: 999.99, 
+        preco: 899.99, 
         descricao:"O Dunk Low Malachite é uma versão ousada e elegante do clássico modelo da Nike, trazendo uma combinação única de cores e materiais que chamam a atenção. Com sua parte superior em couro de alta qualidade e camurça, o tênis mistura tons vibrantes de verde malachite com detalhes em branco e preto, criando um visual equilibrado e moderno. O design robusto e atemporal do Dunk é complementado pela entressola confortável e resistente, garantindo um desempenho excelente tanto para atividades diárias quanto para o estilo urbano. A silhueta versátil do Dunk Low Malachite faz dele uma escolha perfeita para quem busca um sneaker que se destaque, seja no dia a dia ou em ocasiões casuais. Ideal para fãs da linha Dunk, este modelo é uma verdadeira peça de coleção que une conforto, durabilidade e estilo inconfundível.",
         imagemProduto: {
             img1:"images/Dunk Low Malachite.avif",

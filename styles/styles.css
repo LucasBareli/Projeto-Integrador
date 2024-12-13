@@ -1464,12 +1464,18 @@ main {
 
  .container-flex button:hover {
     background-color: #252525;
+    cursor: pointer;
  }
 
  .freight_container p a {
     text-decoration: none;
     color: #000; 
     font-size: 12px;
+ }
+
+ .freight_container p a:hover {
+    cursor: pointer;
+    color: #0056b3;
  }
 
  .freight_pricing {
@@ -1522,6 +1528,7 @@ main {
 .cart_item_main_img {
     flex-basis: 180px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .cart_item_main_img img{
@@ -1564,6 +1571,10 @@ main {
     border-radius: 5px;
 }
 
+.cart_item_qtd_selector_container:hover {
+    cursor: pointer;
+}
+
 .cart_item_qtd_selector button {
     background-color: #f1efef;
     padding: 3px 25px;
@@ -1572,6 +1583,10 @@ main {
     color: #c4c3c3;
     font-size: 12px;
 
+}
+
+.cart_item_qtd_selector button:hover {
+    cursor: pointer;
 }
 
 .cart_item_qtd_selector_container span{
@@ -1597,6 +1612,10 @@ main {
         font-size: 20px;
         padding: 10px 0px;
     }
+
+.checkout_btn:hover {
+    cursor: pointer;
+}
 
 .total {
         padding-bottom: 10px;
